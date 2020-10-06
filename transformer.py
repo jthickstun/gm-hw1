@@ -37,6 +37,8 @@ class TransformerBlock(nn.Module):
     def forward(self, x, mask):
         seq_len, batch_size, embed_dim = x.shape
 
+        # Hint: Writing efficient code is almost as important as writing correct code in ML.
+        #       Avoid writing for-loops! Consider using the batch matrix multiplication operator torch.bmm
         raise NotImplementedError('Implement a transformer block')
 
         return out
