@@ -37,9 +37,7 @@ class TransformerBlock(nn.Module):
     def forward(self, x, mask):
         seq_len, batch_size, embed_dim = x.shape
 
-        #
-        # TODO: implement a transformer block
-        #
+        raise NotImplementedError('Implement a transformer block')
 
         return out
 
