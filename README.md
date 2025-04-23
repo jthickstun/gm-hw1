@@ -1,4 +1,4 @@
-# CSE 599i (Generative Models) Homework 1 #
+# Generative Models: Homework 1 #
 
 In this part of Homework 1, your task it to implement a transformer, and run several experiments with it using the Wikitext-2 dataset.
 
